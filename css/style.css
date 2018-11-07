@@ -35,14 +35,14 @@ a.active{
 }
 
 .main-section{
-  height: 90%;
+  height: calc(100% - 100px);
+  display: flex;
 }
 
 
 /* Sidebar Left*/
 .sidebar-left{
   width: 200px;
-  height: 100%;
   background: #000;
   overflow-y: auto;
   overflow-x: hidden;
@@ -142,13 +142,13 @@ a.active{
 
 /*Main Content*/
 .main-content{
-
+  background: linear-gradient(#2B3E5A , #000);
+  width: calc(100% - 200px);
 }
 
 /* Footer */
 .footer{
   width: 100%;
-  height: 10%;
-  min-height: 100px;
+  height: 100px;
   background: #282828;
 }
