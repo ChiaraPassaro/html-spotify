@@ -1,183 +1,208 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Spotify</title>
-  </head>
-  <body>
-    <div class="wrapper">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Spotify</title>
+</head>
+<body>
+  <div class="wrapper">
 
-      <main class="main-section">
-        <section class="sidebar-left">
-          <!--Inizio Navbar Laterale -->
-            <nav class="navbar">
+    <main class="main-section">
+      <section class="sidebar-left">
+        <!--Inizio Navbar Laterale -->
+        <nav class="navbar">
 
-              <div class="navbar__top">
-                <div class="logo">
-                  <img src="img/Spotify_Logo_RGB_White.png" alt="Spotify" class="logo__img">
-                  <img src="img/spotify-brand.png" alt="Spotify Three arches inside a circle" class="brand__img">
-                </div>
-                <ul class="navbar__primary">
-                  <li>
-                    <a href="#" class="navbar__link" title="Cerca in Spotify">
-                      <i class="navbar__primary__ico fas fa-search" aria-hidden></i> <span class="navbar__primary__text">Cerca</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="navbar__link active" title="Torna alla Home">
-                      <i class="navbar__primary__ico fas fa-home" aria-hidden></i> <span class="navbar__primary__text">Home</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="navbar__link" title="Visualizza la tua libreria">
-                      <i class="navbar__primary__ico fas fa-book" aria-hidden></i> <span class="navbar__primary__text">La tua libreria</span>
-                    </a>
-                  </li>
-                </ul>
-                <div class="navbar__listened">
-                  <h2>Ascoltati di recente</h2>
-                  <ul class="navbar__listened__list">
-                    <li class="navbar__listened__item">
-                      <a href="#">
-                        <span class="title">Wes Montgomery</span>
-                        <span class="type">ARTISTA</span>
-                      </a>
-                    </li>
-                    <li class="navbar__listened__item">
-                      <a href="#">
-                        <span class="title">Wes Montgomery</span>
-                        <span class="type">ARTISTA</span>
-                      </a>
-                    </li>
-                    <li class="navbar__listened__item">
-                      <a href="#">
-                        <span class="title">Wes Montgomery</span>
-                        <span class="type">ARTISTA</span>
-                      </a>
-                    </li>
-                    <li class="navbar__listened__item">
-                      <a href="#">
-                        <span class="title">Wes Montgomery</span>
-                        <span class="type">ARTISTA</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="navbar__bottom">
-                <div class="navbar__app">
+          <div class="navbar__top">
+            <div class="logo">
+              <img src="img/Spotify_Logo_RGB_White.png" alt="Spotify" class="logo__img">
+              <img src="img/spotify-brand.png" alt="Spotify Three arches inside a circle" class="brand__img">
+            </div>
+            <ul class="navbar__primary">
+              <li>
+                <a href="#" class="navbar__link" title="Cerca in Spotify">
+                  <i class="navbar__primary__ico fas fa-search" aria-hidden></i> <span class="navbar__primary__text">Cerca</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="navbar__link active" title="Torna alla Home">
+                  <i class="navbar__primary__ico fas fa-home" aria-hidden></i> <span class="navbar__primary__text">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="navbar__link" title="Visualizza la tua libreria">
+                  <i class="navbar__primary__ico fas fa-book" aria-hidden></i> <span class="navbar__primary__text">La tua libreria</span>
+                </a>
+              </li>
+            </ul>
+            <div class="navbar__listened">
+              <h2>Ascoltati di recente</h2>
+              <ul class="navbar__listened__list">
+                <li class="navbar__listened__item">
                   <a href="#">
-                    <i class="navbar__app__ico far fa-arrow-alt-circle-down" aria-hidden></i> <span class="navbar__app__text">Installa app</span>
+                    <span class="title">Wes Montgomery</span>
+                    <span class="type">ARTISTA</span>
                   </a>
-                </div>
-                <div class="navbar__account">
-                  <a href="#"  class="navbar__link">
-                    <img class="navbar__avatar" src="img/calef.png" alt="Avatar">
-                    <span class="navbar__avatar__name">Chiara Passaro</span>
+                </li>
+                <li class="navbar__listened__item">
+                  <a href="#">
+                    <span class="title">Wes Montgomery</span>
+                    <span class="type">ARTISTA</span>
                   </a>
-                </div>
-              </div>
-
-            </nav>
-          <!-- Fine Navbar Laterale -->
-        </section>
-        <section class="main-content">
-          <div class="main-content__wrapper">
-            <nav class="navbar__secondary">
-                <ul class="navbar_secondary__list">
-                  <li><a href="#"class="navbar__link active">In evidenza</a></li>
-                  <li><a href="#"class="navbar__link">Podcast</a></li>
-                  <li><a href="#"class="navbar__link">Classifiche</a></li>
-                  <li><a href="#"class="navbar__link">Generi e Mood</a></li>
-                  <li><a href="#"class="navbar__link">Nuove Uscite</a></li>
-                  <li><a href="#"class="navbar__link">Scopri</a></li>
-                </ul>
-              </nav>
-
-            <section class="main-content__content">
-              <header class="main-content__header">
-                  <h1>Nuove Uscite</h1>
-                </header>
-              <main class="main-content__grid">
-                  <div class="grid__row">
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                  </div>
-                  <div class="grid__row">
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                    <article class="grid__item">
-                      <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
-                      <h2 class="grid__title-item">Titolo Album</h2>
-                      <p class="grid__author-item">Nome Autore</p>
-                    </article>
-                  </div>
-              </main>
-            </section>
-
+                </li>
+                <li class="navbar__listened__item">
+                  <a href="#">
+                    <span class="title">Wes Montgomery</span>
+                    <span class="type">ARTISTA</span>
+                  </a>
+                </li>
+                <li class="navbar__listened__item">
+                  <a href="#">
+                    <span class="title">Wes Montgomery</span>
+                    <span class="type">ARTISTA</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </section>
-      </main>
 
-      <footer class="footer">
-        testo
-      </footer>
-    </div>
-  </body>
+          <div class="navbar__bottom">
+            <div class="navbar__app">
+              <a href="#">
+                <i class="navbar__app__ico far fa-arrow-alt-circle-down" aria-hidden></i> <span class="navbar__app__text">Installa app</span>
+              </a>
+            </div>
+            <div class="navbar__account">
+              <a href="#"  class="navbar__link">
+                <img class="navbar__avatar" src="img/calef.png" alt="Avatar">
+                <span class="navbar__avatar__name">Chiara Passaro</span>
+              </a>
+            </div>
+          </div>
+
+        </nav>
+        <!-- Fine Navbar Laterale -->
+      </section>
+      <section class="main-content">
+        <div class="main-content__wrapper">
+          <nav class="navbar__secondary">
+            <ul class="navbar_secondary__list">
+              <li><a href="#"class="navbar__link active">In evidenza</a></li>
+              <li><a href="#"class="navbar__link">Podcast</a></li>
+              <li><a href="#"class="navbar__link">Classifiche</a></li>
+              <li><a href="#"class="navbar__link">Generi e Mood</a></li>
+              <li><a href="#"class="navbar__link">Nuove Uscite</a></li>
+              <li><a href="#"class="navbar__link">Scopri</a></li>
+            </ul>
+          </nav>
+
+          <section class="main-content__content">
+            <header class="main-content__header">
+              <h1 class="main-content__title">Nuove Uscite</h1>
+              <a href="#" class="main-content__link-other">Visualizza altro</a>
+            </header>
+            <main class="main-content__grid">
+              <div class="grid__row">
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+              </div>
+              <div class="grid__row">
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+                <article class="grid__item">
+                  <a href="#">
+                    <img class="grid__cover-item" src="img/cover-1.jpg" alt="Titolo Album">
+                    <h2 class="grid__title-item">Titolo Album</h2>
+                    <p class="grid__author-item">Nome Autore</p>
+                  </a>
+                </article>
+              </div>
+            </main>
+          </section>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      testo
+    </footer>
+  </div>
+</body>
 </html>
