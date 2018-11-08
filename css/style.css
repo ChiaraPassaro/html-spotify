@@ -195,6 +195,9 @@ a.active{
 .navbar__top .navbar__listened__list{
   list-style: none;
 }
+.navbar__top .navbar__listened__list li{
+  margin-bottom: 10px;
+}
 .navbar__top .navbar__listened__item .title,
 .navbar__top .navbar__listened__item .type{
   display: block;
