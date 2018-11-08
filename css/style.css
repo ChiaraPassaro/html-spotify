@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.relative-block{
+  position: relative;
+  display: block;
+}
+
 /* Typografy*/
 body{
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -140,7 +145,6 @@ a.active{
   min-height: 210px;/*navbar__primary not hidden*/
   overflow: hidden;
 }
-
 .navbar__top .logo{
   align-self: center; /*Align center cross axis*/
   width: 80%;
@@ -329,17 +333,33 @@ a.active{
 .main-content__link-other{
   text-transform: uppercase;
 }
+
 .main-content__grid .grid__row{
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin-bottom: 20px;
 }
+
 .main-content__grid .grid__item{
   max-width: 160px;
   padding: 20px;
 }
+.main-content__grid .grid__cover-item-wrapper{
+  margin-bottom: 10px;
+}
+.main-content__grid .grid__item:hover .grid__item__over,
+.main-content__grid .grid__item:active .grid__item__over,
+.main-content__grid .grid__item:focus .grid__item__over{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  background: rgba(0,0,0, 0.5);
+}
 .main-content__grid .grid__cover-item{
+  display: block;
   max-width: 100%;
 }
 .main-content__grid .grid__title-item{
@@ -349,6 +369,7 @@ a.active{
   font-size: 0.7em;
   font-weight: 400;
 }
+
 @media screen and (max-width: 700px) {
   .main-content__grid .grid__row{
     flex-wrap: wrap;
@@ -384,14 +405,11 @@ a.active{
 }
 
 .onair__album{
+  display: flex;
+  align-items: center;
   width: calc((100%/4) * 1);
   height: 100%;
   float: left;
-}
-
-.onair__album{
-  display: flex;
-  align-items: center;
 }
 .onair__cover{
   height: 80%;
