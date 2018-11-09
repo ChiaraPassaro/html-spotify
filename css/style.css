@@ -38,6 +38,22 @@ a.active{
   color: #1db954;
 }
 
+button{
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  border: none;
+  background: none;
+  font-size: inherit;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+button:hover,
+button:active,
+button:focus{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
 /*Colors*/
 .green_color{
   color: #1db954;
@@ -79,6 +95,10 @@ a.active{
   left: 0;
   height: 100%;
   border-radius: 4px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.progress__bar:hover .bar-perc{
+  background: #1db954;
 }
 .perc-40{
   width: 40%;
@@ -466,9 +486,10 @@ a.active{
   justify-content: space-around;
   align-items: center;
   min-width:200px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   list-style: none;
 }
+
 .play__button{
   font-size: 2em;
   transition: transform 0.2s;
@@ -490,7 +511,7 @@ a.active{
 .onair__controls__icon{
   width: 60px;
 }
-.onair__controls__icon > i{
+.onair__controls__icon > button{
   margin-right: 10px;
 }
 .onair__controls__volume{
