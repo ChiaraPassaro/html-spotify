@@ -305,7 +305,7 @@ a.active{
 .navbar__secondary .navbar_secondary__list .navbar__link{
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 5px 10px;
 }
 .navbar__secondary .navbar_secondary__list .navbar__link.active{
   color: rgba(255,255,255, 1);
@@ -360,7 +360,7 @@ a.active{
 }
 .main-content__grid .grid__cover-item{
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 .main-content__grid .grid__title-item{
   font-size: 1em;
