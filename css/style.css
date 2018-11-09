@@ -348,15 +348,23 @@ a.active{
 .main-content__grid .grid__cover-item-wrapper{
   margin-bottom: 10px;
 }
-.main-content__grid .grid__item:hover .grid__item__over,
-.main-content__grid .grid__item:active .grid__item__over,
-.main-content__grid .grid__item:focus .grid__item__over{
+.main-content__grid .grid__item .grid__item__over{
   width: 100%;
   height: 100%;
   position: absolute;
   top:0;
   left: 0;
   background: rgba(0,0,0, 0.5);
+  display: none;
+}
+.main-content__grid .grid__item:hover .grid__item__over,
+.main-content__grid .grid__item:active .grid__item__over,
+.main-content__grid .grid__item:focus .grid__item__over{
+  display: flex;
+}
+.main-content__grid .grid__item .grid__item__over i{
+  margin: auto;
+  font-size: 3em;
 }
 .main-content__grid .grid__cover-item{
   display: block;
