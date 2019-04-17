@@ -115,7 +115,7 @@ button:focus{
   height: 12px;
   border-radius: 100%;
   background: #FFF;
-  filter: drop-shadow(1px 1px 1px, rgba(0,0,0, 0.3));
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
 }
 .pointer--perc-40{
   left: 40%;
@@ -470,7 +470,6 @@ button:focus{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: auto;
   width: calc((100%/4) * 2);
   height: 100%;
   float: left;
